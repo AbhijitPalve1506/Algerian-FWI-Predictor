@@ -1,0 +1,117 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a.btn:hover {
+    background-color: #5a52e3;
+}
+
+/* Form Page Styling */
+.login {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* General button styles */
+button {
+    padding: 14px;
+    background-color: #6c63ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Full-width button */
+.button-full {
+    width: 100%;
+}
+
+/* Normal-width button */
+.button-normal {
+    width: auto; /* Or a specific value like 200px */
+}
+
+
+button:hover {
+    background-color: #5a52e3;
+}
+
+/* Results Styling */
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-container {
+        margin-top: 50px;
+    }
+
+    .login {
+        width: 90%;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    input[type="text"], button {
+        font-size: 14px;
+    }
+}
